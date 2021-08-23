@@ -1,0 +1,31 @@
+{
+  "name": "bearer-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest --coverage"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Omx302/bearer-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Omx302/bearer-auth/issues"
+  },
+  "homepage": "https://github.com/Omx302/bearer-auth#readme",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5",
+    "supertest": "^6.1.6"
+  }
+}
